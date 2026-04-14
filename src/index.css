@@ -1,2 +1,13 @@
 @import "tailwindcss";
 @plugin "daisyui";
+@theme {
+    --color-dark-green: #244d3f;
+    --color-dark-black: #1f2937;
+    --color-light-gray: #64748b;
+}
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #f8fafc;
+}
