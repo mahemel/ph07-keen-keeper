@@ -19,7 +19,10 @@ export const TimelineProvider = ({ children }) => {
 
         setTimeline(newTimeline);
 
-        toast.success(message);
+        toast.success(message, {
+            position: "top-center",
+            autoClose: 2000,
+        });
     };
 
     return (
