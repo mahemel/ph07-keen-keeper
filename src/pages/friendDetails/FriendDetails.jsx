@@ -2,13 +2,9 @@ import React from "react";
 import { useLoaderData, useParams } from "react-router";
 import InnerError from "../../components/shared/InnerError";
 import { TbBellZ } from "react-icons/tb";
-import {
-    PiArchiveBold,
-    PiChatDotsBold,
-    PiPhoneCallBold,
-    PiVideoCameraBold,
-} from "react-icons/pi";
+import { PiArchiveBold } from "react-icons/pi";
 import { FiTrash2 } from "react-icons/fi";
+import FriendQuickAction from "./FriendQuickAction";
 
 const FriendDetails = () => {
     const friends = useLoaderData();
@@ -84,6 +80,7 @@ const FriendDetails = () => {
                         </div>
                     </div>
                 </div>
+
                 <div className="space-y-2">
                     <button className="w-full h-13 btn bg-base-100 border border-[##E9E9E9] text-base">
                         <span className="text-xl">
@@ -162,27 +159,7 @@ const FriendDetails = () => {
                         <h2 className="text-xl font-semibold text-dark-green">
                             Quick Check-In
                         </h2>
-
-                        <div className="grid grid-cols-3 gap-4">
-                            <button className="h-24 btn bg-[#F8FAFC] border border-[##E9E9E9] text-lg text-dark-black flex flex-col gap-2 items-center">
-                                <span className="text-[32px]">
-                                    <PiPhoneCallBold></PiPhoneCallBold>
-                                </span>
-                                Call
-                            </button>
-                            <button className="h-24 btn bg-[#F8FAFC] border border-[##E9E9E9] text-lg text-dark-black flex flex-col gap-2 items-center">
-                                <span className="text-[32px]">
-                                    <PiChatDotsBold></PiChatDotsBold>
-                                </span>
-                                Text
-                            </button>
-                            <button className="h-24 btn bg-[#F8FAFC] border border-[##E9E9E9] text-lg text-dark-black flex flex-col gap-2 items-center">
-                                <span className="text-[32px]">
-                                    <PiVideoCameraBold></PiVideoCameraBold>
-                                </span>
-                                Video
-                            </button>
-                        </div>
+                        <FriendQuickAction name={name}></FriendQuickAction>
                     </div>
                 </div>
             </div>
