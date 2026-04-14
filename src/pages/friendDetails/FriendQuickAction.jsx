@@ -1,17 +1,15 @@
-import React from "react";
+import React, { useContext } from "react";
 import {
     PiChatDotsBold,
     PiPhoneCallBold,
     PiVideoCameraBold,
 } from "react-icons/pi";
-import { toast } from "react-toastify";
 
-const handleCheckInAction = (name, checkInType) => {
-    const message = `${checkInType} with ${name}`;
-    toast.success(message);
-};
+import { TimelineContext } from "../../contexts/TimelineContext";
 
 const FriendQuickAction = ({ name }) => {
+    const { timeline, handleCheckInAction } = useContext(TimelineContext);
+    console.log(timeline);
     return (
         <>
             <div className="grid grid-cols-3 gap-4">
