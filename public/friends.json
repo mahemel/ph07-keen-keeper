@@ -7,7 +7,7 @@
         "days_since_contact": 20,
         "status": "Overdue",
         "tags": ["Work", "Hobby"],
-        "bio": "We studied computer science together at DU. Often discuss startups and tech trends.",
+        "bio": "University friend, loves startups and tech chats",
         "goal": 14,
         "next_due_date": "2026-04-05"
     },
@@ -19,7 +19,7 @@
         "days_since_contact": 10,
         "status": "Almost Due",
         "tags": ["Work"],
-        "bio": "Colleague from my first job. We bonded over UI/UX and coffee breaks.",
+        "bio": "Former colleague, coffee break partner",
         "goal": 14,
         "next_due_date": "2026-04-18"
     },
@@ -31,7 +31,7 @@
         "days_since_contact": 5,
         "status": "On-Track",
         "tags": ["Hobby", "Travel"],
-        "bio": "Met at the gym. We usually push each other to stay consistent.",
+        "bio": "Gym buddy, keeps me motivated",
         "goal": 14,
         "next_due_date": "2026-04-27"
     },
@@ -43,7 +43,7 @@
         "days_since_contact": 16,
         "status": "Overdue",
         "tags": ["Family"],
-        "bio": "Our families have known each other for years. Always checks in during festivals.",
+        "bio": "Family friend, always thoughtful and caring",
         "goal": 14,
         "next_due_date": "2026-04-08"
     },
@@ -55,7 +55,7 @@
         "days_since_contact": 13,
         "status": "Almost Due",
         "tags": ["Work"],
-        "bio": "Met at a tech meetup in Dhaka. We share ideas about SaaS products.",
+        "bio": "Tech meetup friend, loves product ideas",
         "goal": 14,
         "next_due_date": "2026-04-15"
     },
@@ -67,7 +67,7 @@
         "days_since_contact": 3,
         "status": "On-Track",
         "tags": ["Family", "Hobby"],
-        "bio": "We’ve been friends since school. Still talk about old memories and life updates.",
+        "bio": "School friend, knows all my old stories",
         "goal": 14,
         "next_due_date": "2026-04-29"
     },
@@ -79,7 +79,7 @@
         "days_since_contact": 18,
         "status": "Overdue",
         "tags": ["Travel"],
-        "bio": "We used to play football every evening in our local field.",
+        "bio": "Football friend, full of energy",
         "goal": 14,
         "next_due_date": "2026-04-07"
     },
@@ -91,7 +91,7 @@
         "days_since_contact": 12,
         "status": "Almost Due",
         "tags": ["Family"],
-        "bio": "Met through a reading club. We exchange book recommendations regularly.",
+        "bio": "Book club friend, thoughtful reader",
         "goal": 14,
         "next_due_date": "2026-04-16"
     },
@@ -103,7 +103,7 @@
         "days_since_contact": 7,
         "status": "On-Track",
         "tags": ["Travel", "Hobby"],
-        "bio": "Travel buddy from multiple trips around Bangladesh, especially Sylhet and Bandarban.",
+        "bio": "Travel buddy, always ready for adventures",
         "goal": 14,
         "next_due_date": "2026-04-23"
     },
@@ -115,7 +115,7 @@
         "days_since_contact": 15,
         "status": "Overdue",
         "tags": ["Work"],
-        "bio": "She guided me during my early career decisions and still offers valuable advice.",
+        "bio": "Former colleague, great mentor",
         "goal": 14,
         "next_due_date": "2026-04-09"
     }

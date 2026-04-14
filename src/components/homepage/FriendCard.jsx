@@ -9,7 +9,6 @@ const FriendCard = ({ friend }) => {
     } else if (status === "Almost Due") {
         statusStyle = "bg-[#EFAD44]";
     }
-    console.log(`/friendDetails/${friend.id}`);
 
     return (
         <Link
@@ -17,7 +16,11 @@ const FriendCard = ({ friend }) => {
             className="card bg-base-100 text-center shadow-sm"
         >
             <div className="card-body items-center gap-3">
-                <img src={picture} alt="User Image" className="rounded-full" />
+                <img
+                    src={picture}
+                    alt="User Image"
+                    className="rounded-full w-20"
+                />
                 <div className="flex flex-col items-center gap-2">
                     <h2 className="text-xl font-semibold text-dark-black">
                         {name}

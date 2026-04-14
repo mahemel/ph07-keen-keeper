@@ -7,7 +7,7 @@ const MainLayout = () => {
     return (
         <>
             <Navbar></Navbar>
-            <main className="py-20">
+            <main className="p-20 container mx-auto">
                 <Outlet></Outlet>
             </main>
             <Footer></Footer>
