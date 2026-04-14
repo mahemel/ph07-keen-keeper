@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "Arif Rahman",
+        "picture": "https://i.ibb.co.com/pvmckbYv/2.png",
+        "email": "arif.rahman@gmail.com",
+        "days_since_contact": 20,
+        "status": "Overdue",
+        "tags": ["Work", "Hobby"],
+        "bio": "We studied computer science together at DU. Often discuss startups and tech trends.",
+        "goal": 14,
+        "next_due_date": "2026-04-05"
+    },
+    {
+        "id": 2,
+        "name": "Nusrat Jahan",
+        "picture": "https://i.ibb.co.com/LXpvwDnR/1.png",
+        "email": "nusrat.jahan@gmail.com",
+        "days_since_contact": 10,
+        "status": "Almost Due",
+        "tags": ["Work"],
+        "bio": "Colleague from my first job. We bonded over UI/UX and coffee breaks.",
+        "goal": 14,
+        "next_due_date": "2026-04-18"
+    },
+    {
+        "id": 3,
+        "name": "Tanvir Ahmed",
+        "picture": "https://i.ibb.co.com/cKX2Fcfs/4.png",
+        "email": "tanvir.ahmed@yahoo.com",
+        "days_since_contact": 5,
+        "status": "On-Track",
+        "tags": ["Hobby", "Travel"],
+        "bio": "Met at the gym. We usually push each other to stay consistent.",
+        "goal": 14,
+        "next_due_date": "2026-04-27"
+    },
+    {
+        "id": 4,
+        "name": "Farzana Karim",
+        "picture": "https://i.ibb.co.com/0yk4TKxy/3.png",
+        "email": "farzana.karim@gmail.com",
+        "days_since_contact": 16,
+        "status": "Overdue",
+        "tags": ["Family"],
+        "bio": "Our families have known each other for years. Always checks in during festivals.",
+        "goal": 14,
+        "next_due_date": "2026-04-08"
+    },
+    {
+        "id": 5,
+        "name": "Imran Hossain",
+        "picture": "https://i.ibb.co.com/V0JvhryC/6.png",
+        "email": "imran.hossain@gmail.com",
+        "days_since_contact": 13,
+        "status": "Almost Due",
+        "tags": ["Work"],
+        "bio": "Met at a tech meetup in Dhaka. We share ideas about SaaS products.",
+        "goal": 14,
+        "next_due_date": "2026-04-15"
+    },
+    {
+        "id": 6,
+        "name": "Sadia Islam",
+        "picture": "https://i.ibb.co.com/yF6ZqqYc/5.png",
+        "email": "sadia.islam@gmail.com",
+        "days_since_contact": 3,
+        "status": "On-Track",
+        "tags": ["Family", "Hobby"],
+        "bio": "We’ve been friends since school. Still talk about old memories and life updates.",
+        "goal": 14,
+        "next_due_date": "2026-04-29"
+    },
+    {
+        "id": 7,
+        "name": "Rafiul Hasan",
+        "picture": "https://i.ibb.co.com/wrSmSmmJ/7.png",
+        "email": "rafiul.hasan@gmail.com",
+        "days_since_contact": 18,
+        "status": "Overdue",
+        "tags": ["Travel"],
+        "bio": "We used to play football every evening in our local field.",
+        "goal": 14,
+        "next_due_date": "2026-04-07"
+    },
+    {
+        "id": 8,
+        "name": "Mithila Chowdhury",
+        "picture": "https://i.ibb.co.com/dw1jqgzK/9.png",
+        "email": "mithila.chowdhury@gmail.com",
+        "days_since_contact": 12,
+        "status": "Almost Due",
+        "tags": ["Family"],
+        "bio": "Met through a reading club. We exchange book recommendations regularly.",
+        "goal": 14,
+        "next_due_date": "2026-04-16"
+    },
+    {
+        "id": 9,
+        "name": "Sabbir Khan",
+        "picture": "https://i.ibb.co.com/xqTNhXGw/8.png",
+        "email": "sabbir.khan@gmail.com",
+        "days_since_contact": 7,
+        "status": "On-Track",
+        "tags": ["Travel", "Hobby"],
+        "bio": "Travel buddy from multiple trips around Bangladesh, especially Sylhet and Bandarban.",
+        "goal": 14,
+        "next_due_date": "2026-04-23"
+    },
+    {
+        "id": 10,
+        "name": "Tahmina Akter",
+        "picture": "https://i.ibb.co.com/cKzD578C/10.png",
+        "email": "tahmina.akter@gmail.com",
+        "days_since_contact": 15,
+        "status": "Overdue",
+        "tags": ["Work"],
+        "bio": "She guided me during my early career decisions and still offers valuable advice.",
+        "goal": 14,
+        "next_due_date": "2026-04-09"
+    }
+]
