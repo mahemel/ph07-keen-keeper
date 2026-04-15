@@ -1,16 +1,89 @@
-# React + Vite
+# 📌 KeenKeeper - Connect with Friends
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React-based friendship timeline tracker where users can explore friend profiles, view interaction history, filter activities, and analyze communication stats through beautiful charts and responsive UI.
 
-Currently, two official plugins are available:
+## 🚀 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+KeenKeeper helps users keep track of meaningful interactions with friends such as calls, texts, and video chats. It provides an organized way to review relationship activity, check detailed friend profiles, and visualize engagement trends with interactive charts.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
 
-## Expanding the ESLint configuration
+### Core Technologies
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- Vite
+- React Router DOM
+
+### Styling & UI
+
+- Tailwind CSS
+- DaisyUI
+- React Icons
+
+### Notifications & UX
+
+- React Toastify
+
+### Data Visualization
+
+- Recharts
+
+### Code Quality & Tooling
+
+- ESLint
+- @eslint/js
+- eslint-plugin-react-hooks
+- eslint-plugin-react-refresh
+- @vitejs/plugin-react
+
+---
+
+## ✨ Key Features
+
+### 👥 Friend Details Page
+
+View detailed information about each friend including profile data and personal connection insights.
+
+---
+
+### 🕒 Timeline Filtering System
+
+Users can filter timeline activities by interaction type:
+
+- 📞 Call
+- 💬 Text
+- 🎥 Video
+
+This makes check-in activity history faster and easier.
+
+---
+
+### 📊 Statistics Dashboard
+
+Interactive Pie Chart built with **Recharts** showing the total count of:
+
+- Call Interactions
+- Text Interactions
+- Video Interactions
+
+---
+
+## 📂 Pages Included
+
+- Home Page
+- Friend Details
+- Timeline
+- Stats Dashboard
+- Error / Not Found Page
+
+---
+
+## 📱 Responsive Design
+
+The application is fully responsive and optimized for:
+
+- Desktop 💻
+- Tablet 📱
+- Mobile 📱

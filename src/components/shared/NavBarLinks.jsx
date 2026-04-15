@@ -6,7 +6,7 @@ const NavBarLinks = ({ link }) => {
             <NavLink
                 to={link.path}
                 className={({ isActive }) =>
-                    `font-medium flex items-center gap-1 h-11 rounded px-4 text-base ${
+                    `font-medium flex items-center gap-1 h-11 rounded px-4 py-0 text-base ${
                         isActive
                             ? "active text-white bg-[#244D3F]"
                             : "text-[#64748B] bg-transparent"
