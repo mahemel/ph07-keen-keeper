@@ -11,7 +11,11 @@ export const TimelineProvider = ({ children }) => {
             id: timeline.length + 1,
             friendName: name,
             type: checkInType,
-            time: new Date().toLocaleString(),
+            time: new Date().toLocaleDateString("en-US", {
+                month: "long",
+                day: "2-digit",
+                year: "numeric",
+            }),
         };
         const message = `${checkInType} with ${name}`;
 

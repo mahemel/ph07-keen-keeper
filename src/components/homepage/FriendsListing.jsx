@@ -1,13 +1,18 @@
-import { use } from "react";
+import { use, useContext } from "react";
 import FriendCard from "./FriendCard";
 import FriendsInfo from "./FriendsInfo";
+import { TimelineContext } from "../../contexts/TimelineContext";
 
 const FriendsListing = ({ friends }) => {
     const friendsData = use(friends);
+    const { timeline } = useContext(TimelineContext);
 
     return (
         <div>
-            <FriendsInfo friendsData={friendsData}></FriendsInfo>
+            <FriendsInfo
+                friendsData={friendsData}
+                timeline={timeline}
+            ></FriendsInfo>
 
             <div>
                 <h2 className="text-2xl font-semibold text-dark-black mb-4">

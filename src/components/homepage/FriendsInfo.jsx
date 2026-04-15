@@ -1,4 +1,4 @@
-const FriendsInfo = ({ friendsData }) => {
+const FriendsInfo = ({ friendsData, timeline }) => {
     const onTrackFriends = friendsData.filter(
         (friend) => friend.status === "On-Track",
     );
@@ -34,7 +34,7 @@ const FriendsInfo = ({ friendsData }) => {
             <div className="card bg-base-100 text-center shadow-sm">
                 <div className="card-body py-8">
                     <h2 className="text-[32px] font-semibold text-dark-green">
-                        12
+                        {timeline.length || 0}
                     </h2>
                     <p className="text-lg text-light-gray">
                         Interactions This Month
