@@ -34,9 +34,9 @@ const FriendDetails = () => {
 
     let statusStyle = "bg-[#244D3F]";
 
-    if (status === "Overdue") {
+    if (status === "overdue") {
         statusStyle = "bg-[#EF4444]";
-    } else if (status === "Almost Due") {
+    } else if (status === "almost due") {
         statusStyle = "bg-[#EFAD44]";
     }
 
@@ -55,7 +55,7 @@ const FriendDetails = () => {
                                 {name}
                             </h2>
                             <div
-                                className={`badge rounded-full ${statusStyle}  text-white font-medium text-[12px] border-0 px-2`}
+                                className={`badge rounded-full ${statusStyle}  text-white font-medium text-[12px] border-0 px-2 capitalize`}
                             >
                                 {status}
                             </div>

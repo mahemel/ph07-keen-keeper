@@ -1,9 +1,9 @@
 const FriendsInfo = ({ friendsData, timeline }) => {
     const onTrackFriends = friendsData.filter(
-        (friend) => friend.status === "On-Track",
+        (friend) => friend.status === "on-track",
     );
     const overdueFriends = friendsData.filter(
-        (friend) => friend.status === "Overdue",
+        (friend) => friend.status === "overdue",
     );
     return (
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 lg:gap-6 py-10 mb-10 border-b border-[#E9E9E9]">
