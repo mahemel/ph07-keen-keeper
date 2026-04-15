@@ -41,7 +41,7 @@ const FriendDetails = () => {
     }
 
     return (
-        <div className="grid grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5 xl:gap-6">
             <div className="space-y-4">
                 <div className="card bg-base-100 shadow-sm">
                     <div className="card-body items-center gap-3">
@@ -71,10 +71,10 @@ const FriendDetails = () => {
                                 ))}
                             </div>
 
-                            <p className="text-base italic text-light-gray font-medium">
+                            <p className="text-sm xl:text-base italic text-light-gray text-center font-medium">
                                 "{bio}"
                             </p>
-                            <p className="text-sm text-light-gray">
+                            <p className="text-[12px] lg:text-sm text-light-gray text-center">
                                 Preferred: {email}
                             </p>
                         </div>
@@ -103,49 +103,51 @@ const FriendDetails = () => {
                 </div>
             </div>
 
-            <div className="col-span-2 space-y-6">
-                <div className="grid grid-cols-3 gap-6">
+            <div className="md:col-span-2 space-y-5 xl:space-y-6">
+                <div className="grid grid-cols-2 md:grid-cols-3 gap-3 lg:gap-5 xl:gap-6">
                     <div className="card bg-base-100 text-center shadow-sm">
-                        <div className="card-body py-7">
-                            <h2 className="text-[30px] font-semibold text-dark-green">
+                        <div className="card-body py-7 px-2">
+                            <h2 className="text-lg lg:text-[23px] xl:text-[26px] 2xl:text-[30px] font-semibold text-dark-green">
                                 {days_since_contact}
                             </h2>
-                            <p className="text-lg text-light-gray">
+                            <p className="text-sm lg:text-lg text-light-gray">
                                 Days Since Contact
                             </p>
                         </div>
                     </div>
 
                     <div className="card bg-base-100 text-center shadow-sm">
-                        <div className="card-body py-7">
-                            <h2 className="text-[30px] font-semibold text-dark-green">
+                        <div className="card-body py-7 px-2">
+                            <h2 className="text-lg lg:text-[23px] xl:text-[26px] 2xl:text-[30px] font-semibold text-dark-green">
                                 {goal}
                             </h2>
-                            <p className="text-lg text-light-gray">
+                            <p className="text-sm lg:text-lg text-light-gray">
                                 Goal (Days)
                             </p>
                         </div>
                     </div>
 
-                    <div className="card bg-base-100 text-center shadow-sm">
-                        <div className="card-body py-7">
-                            <h2 className="text-[30px] font-semibold text-dark-green">
+                    <div className="col-span-2 md:col-span-1 card bg-base-100 text-center shadow-sm">
+                        <div className="card-body py-7 px-2">
+                            <h2 className="text-lg lg:text-[23px] xl:text-[26px] 2xl:text-[30px] font-semibold text-dark-green">
                                 {formattedDate}
                             </h2>
-                            <p className="text-lg text-light-gray">Next Due</p>
+                            <p className="text-sm lg:text-lg text-light-gray">
+                                Next Due
+                            </p>
                         </div>
                     </div>
                 </div>
 
                 <div className="card bg-base-100 shadow-sm">
-                    <div className="card-body py-7">
-                        <h2 className="text-xl font-semibold text-dark-green flex items-center justify-between">
+                    <div className="card-body px-4 lg:px-6 py-4 md:py-7">
+                        <h2 className="text-lg lg:text-xl font-semibold text-dark-green flex items-center justify-between">
                             Relationship Goal
                             <button className="h-9 btn bg-[#F8FAFC] border border-[#E9E9E9] text-sm text-dark-black">
                                 Edit
                             </button>
                         </h2>
-                        <p className="text-lg text-light-gray">
+                        <p className="text-base lg:text-lg text-light-gray">
                             Connect every{" "}
                             <span className="font-bold text-dark-black">
                                 {goal} days
@@ -155,7 +157,7 @@ const FriendDetails = () => {
                 </div>
 
                 <div className="card bg-base-100 shadow-sm">
-                    <div className="card-body py-7">
+                    <div className="card-body px-4 lg:px-6 py-4 md:py-7">
                         <h2 className="text-xl font-semibold text-dark-green">
                             Quick Check-In
                         </h2>

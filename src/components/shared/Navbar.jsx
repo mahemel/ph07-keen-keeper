@@ -5,6 +5,7 @@ import { PiChartLineBold } from "react-icons/pi";
 import { RiHome2Line } from "react-icons/ri";
 import { TbClockHour3 } from "react-icons/tb";
 import NavBarLinks from "./NavBarLinks";
+import { Link } from "react-router";
 
 const Navbar = () => {
     const links = [
@@ -24,15 +25,14 @@ const Navbar = () => {
             icon: <PiChartLineBold></PiChartLineBold>,
         },
     ];
-
     return (
-        <div className="navbar bg-base-100 shadow-sm px-20">
-            <div className="navbar-start">
+        <div className="navbar bg-base-100 shadow-sm px-5 md:px-8 lg:px15 xl:px-20">
+            <div className="navbar-start gap-2 lg:gap-0 w-full md:w-6/12 ">
                 <div className="dropdown">
                     <div
                         tabIndex={0}
                         role="button"
-                        className="btn btn-ghost lg:hidden"
+                        className="btn btn-ghost px-2 md:hidden"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -58,11 +58,12 @@ const Navbar = () => {
                         ))}
                     </ul>
                 </div>
-                <a>
+
+                <Link to="/">
                     <img src={Logo} alt="KeenKeeper Logo" />
-                </a>
+                </Link>
             </div>
-            <div className="navbar-end hidden lg:flex">
+            <div className="navbar-end hidden md:flex">
                 <ul className="menu menu-horizontal px-1">
                     {links.map((link, index) => (
                         <NavBarLinks key={index} link={link}></NavBarLinks>

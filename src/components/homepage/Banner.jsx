@@ -4,10 +4,10 @@ const Banner = () => {
     return (
         <div className="text-center space-y-8">
             <div className="space-y-4">
-                <h1 className="text-dark-black text-5xl font-bold">
+                <h1 className="text-dark-black text-4xl lg:text-5xl font-bold">
                     Friends to keep close in your life
                 </h1>
-                <p className="text-base text-light-gray">
+                <p className="text-sm lg:text-base text-light-gray">
                     Your personal shelf of meaningful connections. Browse, tend,
                     and nurture the <br className="hidden md:block" />{" "}
                     relationships that matter most.

@@ -22,7 +22,7 @@ const FriendCard = ({ friend }) => {
                     className="rounded-full w-20"
                 />
                 <div className="flex flex-col items-center gap-2">
-                    <h2 className="text-xl font-semibold text-dark-black">
+                    <h2 className="text-lg xl:text-xl font-semibold text-dark-black">
                         {name}
                     </h2>
                     <h3 className="text-[12px] text-light-gray">
