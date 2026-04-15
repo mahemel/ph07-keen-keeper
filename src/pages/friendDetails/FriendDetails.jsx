@@ -82,19 +82,19 @@ const FriendDetails = () => {
                 </div>
 
                 <div className="space-y-2">
-                    <button className="w-full h-13 btn bg-base-100 border border-[##E9E9E9] text-base">
+                    <button className="w-full h-13 btn bg-base-100 border border-[#E9E9E9] text-base">
                         <span className="text-xl">
                             <TbBellZ></TbBellZ>
                         </span>
                         Snooze 2 Weeks
                     </button>
-                    <button className="w-full h-13 btn bg-base-100 border border-[##E9E9E9] text-base">
+                    <button className="w-full h-13 btn bg-base-100 border border-[#E9E9E9] text-base">
                         <span className="text-xl">
                             <PiArchiveBold></PiArchiveBold>
                         </span>
                         Archive
                     </button>
-                    <button className="w-full h-13 btn bg-base-100 border border-[##E9E9E9] text-base text-[#EF4444]">
+                    <button className="w-full h-13 btn bg-base-100 border border-[#E9E9E9] text-base text-[#EF4444]">
                         <span className="text-xl">
                             <FiTrash2></FiTrash2>
                         </span>
@@ -141,7 +141,7 @@ const FriendDetails = () => {
                     <div className="card-body py-7">
                         <h2 className="text-xl font-semibold text-dark-green flex items-center justify-between">
                             Relationship Goal
-                            <button className="h-9 btn bg-[#F8FAFC] border border-[##E9E9E9] text-sm text-dark-black">
+                            <button className="h-9 btn bg-[#F8FAFC] border border-[#E9E9E9] text-sm text-dark-black">
                                 Edit
                             </button>
                         </h2>

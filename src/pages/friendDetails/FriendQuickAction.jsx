@@ -8,14 +8,14 @@ import {
 import { TimelineContext } from "../../contexts/TimelineContext";
 
 const FriendQuickAction = ({ name }) => {
-    const { timeline, handleCheckInAction } = useContext(TimelineContext);
-    console.log(timeline);
+    const { handleCheckInAction } = useContext(TimelineContext);
+
     return (
         <>
             <div className="grid grid-cols-3 gap-4">
                 <button
                     onClick={() => handleCheckInAction(name, "Call")}
-                    className="h-24 btn bg-[#F8FAFC] border border-[##E9E9E9] text-lg text-dark-black flex flex-col gap-2 items-center"
+                    className="h-24 btn bg-[#F8FAFC] border border-[#E9E9E9] text-lg text-dark-black flex flex-col gap-2 items-center"
                 >
                     <span className="text-[32px]">
                         <PiPhoneCallBold></PiPhoneCallBold>
@@ -24,7 +24,7 @@ const FriendQuickAction = ({ name }) => {
                 </button>
                 <button
                     onClick={() => handleCheckInAction(name, "Text")}
-                    className="h-24 btn bg-[#F8FAFC] border border-[##E9E9E9] text-lg text-dark-black flex flex-col gap-2 items-center"
+                    className="h-24 btn bg-[#F8FAFC] border border-[#E9E9E9] text-lg text-dark-black flex flex-col gap-2 items-center"
                 >
                     <span className="text-[32px]">
                         <PiChatDotsBold></PiChatDotsBold>
@@ -33,7 +33,7 @@ const FriendQuickAction = ({ name }) => {
                 </button>
                 <button
                     onClick={() => handleCheckInAction(name, "Video")}
-                    className="h-24 btn bg-[#F8FAFC] border border-[##E9E9E9] text-lg text-dark-black flex flex-col gap-2 items-center"
+                    className="h-24 btn bg-[#F8FAFC] border border-[#E9E9E9] text-lg text-dark-black flex flex-col gap-2 items-center"
                 >
                     <span className="text-[32px]">
                         <PiVideoCameraBold></PiVideoCameraBold>

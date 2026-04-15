@@ -15,7 +15,7 @@ export const TimelineProvider = ({ children }) => {
         };
         const message = `${checkInType} with ${name}`;
 
-        const newTimeline = [...timeline, newTimelineItem];
+        const newTimeline = [newTimelineItem, ...timeline];
 
         setTimeline(newTimeline);
 
